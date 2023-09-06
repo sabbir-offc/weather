@@ -34,37 +34,20 @@
     <main>
         <section>
             <div
-                class="w-11/12 max-w-[470px] bg-gradient-to-r from-[#00feba] to-[#5B548a] text-white mt-24 mx-auto rounded-3xl px-10 py-9 text-center">
+                class="w-11/12 max-w-[470px] bg-gradient-to-r from-[#00feba] to-[#736aac] text-white mt-24 mx-auto rounded-3xl px-10 py-9 text-center">
                 <div class="flex items-center justify-between gap-2 w-full">
-                    <input type="text" placeholder="Enter City Name"
-                        class="input focus:outline-none bg-white text-gray-700 text-lg rounded-3xl flex-1" spellcheck="false" />
-                    <button class="bg-[#ebfffc] rounded-[50%] w-14 h-14 cursor-pointer"><img class="w-4 m-auto"
+                    <input type="text" placeholder="Enter City Name" id="search-box"
+                        class="input focus:outline-none bg-white text-gray-700 text-lg rounded-3xl flex-1"
+                        spellcheck="false" />
+                    <button class="bg-[#ebfffc] rounded-[50%] w-14 h-14 cursor-pointer" id="search-btn"><img class="w-4 m-auto"
                             src="./images/search.png" alt=""></button>
 
                 </div>
                 <!-- weather -->
-                <div>
-                    <img src="./images/rain.png" class="mx-auto" id="weather-icon" alt="">
-                    <h1 class="text-7xl font-medium" id="temp">22°C</h1>
-                    <h2 class="text-5xl font-normal mt-3">City Name</h2>
+                <div id="weather-container">
+                    
                 </div>
-                <div id="details" class="flex items-center justify-between px-10 mt-12">
-                    <div>
-                        <img src="./images/humidity.png" alt="" class="mx-auto">
-                        <div>
-                            <p>50%</p>
-                            <p>Humidity</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="./images/wind.png" alt="" class="mx-auto">
-                        <div>
-                            <p>15 km/h</p>
-                            <p>Wind Speed</p>
-                        </div>
-                    </div>
 
-                </div>
             </div>
 
 
